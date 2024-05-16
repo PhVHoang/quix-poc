@@ -22,4 +22,7 @@ deployments:
         value: f1-data
 
 # This section describes the Topics of the data pipeline
-topics: []
+topics:
+  - name: f1-data
+    configuration:
+      partitions: 1
